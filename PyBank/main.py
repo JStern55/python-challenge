@@ -1,13 +1,11 @@
 import os
 import csv
 from collections import defaultdict
-total_months=0
-total_profit_losses=0
-monthly_changes=[]
-months=[]
+
+
 #PyBank
-csv_file_path = os.path.join('..', 'python-challenge','PyBank', 'budget_data.csv')
-output_file_path = os.path.join('..','python-challenge','PyBank','Budget_Results.txt')
+
+
 # Reading the PyBank CSV file
 with open(csv_file_path, 'r') as csvfile:
     reader = csv.DictReader(csvfile)
